@@ -67,7 +67,11 @@
     }
 
     .galeri .container {
-        padding: 0 1rem 1rem;
+        padding: 1rem;
+    }
+
+    .galeri .container iframe {
+        border-radius: 8px;
     }
 
     .galeri .container figure {
