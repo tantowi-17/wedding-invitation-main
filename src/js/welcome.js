@@ -15,7 +15,7 @@ export const welcome = () => {
         return `
             <img src="${coupleImage}" alt="couple animation">
             <figcaption>
-                ${brideLName.split(' ')[0]} & ${bridePName.split(' ')[0]}
+                Angga & Anggun
             </figcaption>`;
     };
 
@@ -27,7 +27,7 @@ export const welcome = () => {
             weddingToElement.innerHTML = `Kepada Yth Bapak/Ibu/Saudara/i<br><span>${params}</span>`;
             name.value = params;
         } else {
-            weddingToElement.innerHTML = `Kepada Yth Bapak/Ibu/Saudara/i<br><span>Teman-teman semua</span>`;
+            weddingToElement.innerHTML = `Kepada Yth Bapak/Ibu/Saudara/i<br><span>Keluarga & Teman-Teman semua</span>`;
         }
     }
 

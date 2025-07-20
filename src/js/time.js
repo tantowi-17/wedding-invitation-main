@@ -9,7 +9,7 @@ export const time = () => {
     const createTimeListItem = (title, details) => (
         `<h3>${title}</h3>
          <p>${details.day}, ${details.date} ${details.month} ${details.year} <br> 
-         Pukul ${details.hours.start} WIB sd ${details.hours.finish}</p>`
+         Pukul ${details.hours.start} Wita sd ${details.hours.finish} Wita</p>`
     );
 
     // marriageDiv.innerHTML = createTimeListItem('Akad', data.time.marriage);

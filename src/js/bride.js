@@ -7,8 +7,9 @@ export const bride = () => {
         `<li data-aos="zoom-in" data-aos-duration="1000">
               <figure>
                    <img src=${data.image} alt="${data.name} animation">
-                   <figcaption>${data.name}</figcaption>
               </figure>
+              <h4>${data.name}</h4>
+
               <p>${data.child} <br>dari <br> Bapak ${data.father} & Ibu ${data.mother}</p>
               <span style="display: ${data.id === 2 ? 'none' : 'block'}">&</span>
         </li>`

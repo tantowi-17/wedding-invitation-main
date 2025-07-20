@@ -2,7 +2,7 @@ export const data = {
     bride: {
         L: {
             id: 1,
-            name: 'Muh. Ardi Angga, SP',
+            name: 'Muhammad Ardi Angga, SP.',
             child: 'Putra Bungsu',
             father: 'Mustaring',
             mother: 'Minahari',
@@ -10,25 +10,25 @@ export const data = {
         },
         P: {
             id: 2,
-            name: 'Anggun S, S.Sos',
+            name: 'Anggun S, S.Sos.',
             child: 'Putri Pertama',
             father: 'Sujani',
-            mother: 'Siti Sarah  (Almarhumah)',
+            mother: 'Siti Sarah (Almarhumah)',
             image: './src/assets/images/wanita.png'
         },
 
-        couple: 'https://besokakad.id/wp-content/uploads/2025/05/Adat-Bugis-Besokakad.Id_10.webp'
+        couple: './src/assets/images/couple.png'
     },
 
     time: {
         marriage: {
             year: '2025',
             month: 'Juli',
-            date: '30',
-            day: 'Rabu',
+            date: '31',
+            day: 'Kamis',
             hours: {
                 start: '10.00',
-                finish: 'Selesai'
+                finish: '17.00'
             }
         },
         reception: {
@@ -38,15 +38,15 @@ export const data = {
             day: 'Kamis',
             hours: {
                 start: '10.00',
-                finish: 'Selesai'
+                finish: '17.00'
             }
         },
-        address: 'Kp. Pasar Toabdak 1, RT 000/ RW 000, Desa.Tobadak, Kec.Tobadak, Kab. Mamuju Tengah'
+        address: 'Lorong 2 Barat / Samping Belakang Mesjid Baitul Aminin Tobadak 1'
     },
 
     link: {
         calendar: 'https://calendar.app.google/oSVLRMYC79GzuA4f9',
-        map: 'https://maps.app.goo.gl/q1Ask2Jgd4ekiiKBA',
+        map: 'https://maps.app.goo.gl/9HKmTs4v9VYLcuN87',
     },
 
     galeri: [
@@ -76,15 +76,9 @@ export const data = {
         {
             id: 1,
             name: 'Muhammad Ardi Angga',
-            icon: './src/assets/images/bca.png',
-            rekening: '12345678'
-        },
-        {
-            id: 2,
-            name: 'Muhammad Ardi Angga',
-            icon: './src/assets/images/bri.png',
-            rekening: '12345678'
-        },
+            icon: './src/assets/images/BNI_logo.png',
+            rekening: '1232582033'
+        }
     ],
 
     audio: './src/assets/audio/wedding.mp3',
